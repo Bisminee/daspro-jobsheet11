@@ -1,4 +1,4 @@
- public class KafeNoAbsen {
+ public class Kafe07 {
     public static void Menu() {
         System.out.println("===== MENU RESTO KAFE =====");
         System.out.println("1. Kopi Hitam - Rp 15,000");
