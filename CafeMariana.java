@@ -17,7 +17,7 @@ public class CafeMariana {
     }
     
     public static void tampilanPenjualan(int hari, String namaMenu[], int penjualan[][], double rataPenjualan[], String menuJualTinggi){
-        for(int i = 0; i <= hari; i++){
+        for(int i = 0; i < hari; i++){
             System.out.println("Penjualan hari ke-" + (i+1) + ": ");
             for (int j = 0; j < namaMenu.length; j++) {
                 System.out.println("Penjualan menu " + namaMenu[j] + ": " + penjualan[j][i]);
